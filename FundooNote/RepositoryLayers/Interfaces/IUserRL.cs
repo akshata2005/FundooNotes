@@ -11,7 +11,7 @@ namespace RepositoryLayer.UserInterface
         public User AddUser(UserPostModel user);
         public string LoginUser(string email, string password);
         public bool ForgetPassword(string email);
-        public bool ChangePassword(string email, PasswordValidation valid);
+        public bool ChangePassword(string emai, PasswordValidation valid);
 
 
 
