@@ -12,7 +12,7 @@ namespace BusinessLayer.Interfaces
         Task<List<Label>> Getlabel(int userId);
         Task<List<Label>> GetlabelByNoteId(int NoteId);
         Task<Label> UpdateLabel(int userId, int LabelId, string LabelName);
-        Task DeleteLabel(int LabelId, int userId);
+        Task DeleteLabel(int LabelId, int userI);
 
     }
 }

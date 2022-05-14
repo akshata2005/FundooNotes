@@ -10,7 +10,7 @@ namespace DatabaseLayer
         [Required(ErrorMessage = "Title should not be empty.")]
         [RegularExpression("^[A-Z][a-z]{2,}", ErrorMessage = "Title should start with capital letters")]
         [DataType(DataType.Text)]
-        public string Title { get; set; }
+        public string Title { get; set; 
 
         [Required(ErrorMessage = "Description should not be empty")]
         [RegularExpression("^[A-Z][a-z]{4,}", ErrorMessage = "Description should start with capital letters and")]
